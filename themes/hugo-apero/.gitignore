@@ -3,6 +3,5 @@
 .RData
 .Ruserdata
 .DS_Store
-Thumbs.db
-/public/
-/resources/
+exampleSite/public/
+exampleSite/resources/
