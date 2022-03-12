@@ -1,8 +1,8 @@
 baseURL = "/"
 theme = "hugo-apero"
 languageCode = "en"
-title = "Hugo Apéro"
-author = "Alison Hill"
+title = "Feng Tian"
+author = "Feng Tian"
 copyright = "" # set to override the auto generated copyright using org info and now year
 googleAnalytics = ""
 disqusShortname = "" # see params.utterances to use utterances instead of Disqus
@@ -28,8 +28,8 @@ enableEmoji = true
     style = "github"
     
 [params]
-  orgName = "RStudio"
-  orgLocal = "Anywhere"
+  orgName = "Feng Tian"
+  orgLocal = "Wuhan"
   description = "A modern, beautiful, and easily configurable blog theme for Hugo."
   favicon = "/img/favicon.ico"
   logo = "/img/blogophonic-mark-dark.png"
@@ -43,19 +43,19 @@ enableEmoji = true
   # Place image file in `static` folder and specify image name here.
   sharing_image = "/img/papillons.jpg"
   # Twitter username (without @). Used when a visitor shares your site on Twitter.
-  twitter = "apreshill"
+  # twitter = "apreshill"
   
   # use a built-in color theme
   # one of: forest / grayscale / peach / plum /
   #         poppy / sky / violet / water 
-  theme = "sky"
+  theme = "grayscale"
   
   # or, leave theme empty & make your own palette
   # see docs at https://hugo-apero.netlify.app/blog/color-themes/
   # the custom scss file must be in the assets/ folder
   # add the filename name here, without extension
   # to use hex colors instead of named tachyons colors, include "hex" in filename
-  custom_theme = "" 
+  custom_theme = ""  
   
   # use an embedded font-family
   # serif options: Fraunces / EB Garamond / Bitter
@@ -88,32 +88,37 @@ enableEmoji = true
   [[params.social]]
       icon      = "github" # icon name without the 'fa-'
       icon_pack = "fab"
-      url       = "https://github.com/apreshill/apero"
-  [[params.social]]
-      icon      = "facebook-square" # icon name without the 'fa-'
-      icon_pack = "fab"
-      url       = "https://www.facebook.com/hashtag/ap%C3%A9ro"
-  [[params.social]]
-      icon      = "instagram" # icon name without the 'fa-'
-      icon_pack = "fab"
-      url       = "https://www.instagram.com/explore/tags/apero/"
-  [[params.social]]
-      icon      = "twitter" # icon name without the 'fa-'
-      icon_pack = "fab"
-      url       = "https://twitter.com/hashtag/apéro"
-  [[params.social]]
-      icon      = "impactstory" # icon name without the 'fa-'
-      icon_pack = "ai"
-      url       = "https://impactstory.org/u/0000-0002-8082-1890"
+      url       = "https://github.com/fengtian2020/feng"
+  # [[params.social]]
+  #     icon      = "facebook-square" # icon name without the 'fa-'
+  #     icon_pack = "fab"
+  #     url       = "https://www.facebook.com/hashtag/ap%C3%A9ro"
+  # [[params.social]]
+  #     icon      = "instagram" # icon name without the 'fa-'
+  #     icon_pack = "fab"
+  #     url       = "https://www.instagram.com/explore/tags/apero/"
+  # [[params.social]]
+  #     icon      = "twitter" # icon name without the 'fa-'
+  #     icon_pack = "fab"
+  #     url       = "https://twitter.com/hashtag/apéro"
+  # [[params.social]]
+  #     icon      = "impactstory" # icon name without the 'fa-'
+  #     icon_pack = "ai"
+  #     url       = "https://impactstory.org/u/0000-0002-8082-1890"
   [[params.social]]
       icon      = "orcid" # icon name without the 'fa-'
       icon_pack = "ai"
-      url       = "http://orcid.org/0000-0002-8082-1890"
+      url       = "http://orcid.org/0000-0002-9686-2769"
   [[params.social]]
       icon      = "rss" # icon name without the 'fa-'
       icon_pack = "fas"
       url       = "/blog/index.xml"
 
+#  - label: Google Scholar
+ #   url: "https://scholar.google.dk/citations?user=09yZAiwAAAAJ&hl=en"
+#  - label: ResearchGate
+#    url: "https://www.researchgate.net/profile/Feng-Tian-22"
+    
 [taxonomies]
   category = "categories"
   series = "series"
