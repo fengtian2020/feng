@@ -3,7 +3,7 @@ date: "2021-01-02"
 excerpt: In this block, we'll use the postcards package to make a single 'about' home
   page with only R Markdown.
 subtitle: 
-title: 处理数据
+title: 查看数据和生成设置文件
 weight: 2
 ---
 
@@ -26,7 +26,7 @@ weight: 2
 </center>
 
 
-## 查看时间序列数据
+## 查看时间序列数据，生成设置文件
 
 点击`TSM_GUI`，打开之后选择`File → Open list image files`：
 

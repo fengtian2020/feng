@@ -41,8 +41,8 @@ weight: 2
 
 ```
 #加载需要用的软件包
-library(terra) # 用于处理栅格数据，参见https://rspatial.org/terra/spatial/index.html
-library(stringr) #用于字符串处理，例如重命名操作
+if (!require("tidyverse")) install.packages("tidyverse"); library(tidyverse)
+if (!require("terra")) install.packages("terra"); library(terra)
 
 # 获取tif数据文件的路径列表
 tif_files <- list.files(path = "D:/modis/data/GeoTIFF", 

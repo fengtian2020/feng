@@ -31,7 +31,7 @@ weight: 4
 # 生成TIMESAT读list需要的txt文件
 
 #加载需要用的软件包
-library(stringr) #用于字符串处理，例如重命名操作
+if (!require("tidyverse")) install.packages("tidyverse"); library(tidyverse)
 
 # 获取影像数据文件的路径列表
 files <- list.files(path = "D:/modis/run", 
