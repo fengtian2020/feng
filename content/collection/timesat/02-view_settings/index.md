@@ -4,7 +4,7 @@ excerpt: In this block, we'll use the postcards package to make a single 'about'
   page with only R Markdown.
 subtitle: 
 title: 处理数据
-weight: 3
+weight: 2
 ---
 
 ## 查看影像数据

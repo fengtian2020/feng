@@ -4,7 +4,7 @@ cascade:
   layout: single-series
   sidebar:
     author: 田丰
-    description: "利用TIMESAT软件和MODIS NDVI产品进行物候分析，包括：数据下载、数据准备、数据处理、结果制图、分析整个过程"
+    description: "利用TIMESAT软件和MODIS NDVI产品进行物候分析，包括：数据下载、数据准备、数据处理、结果制图、分析整个过程，详细英文教程可以参见TIMESAT用户手册"
     show_author_byline: true
     show_post_date: true
     show_sidebar_adunit: true
